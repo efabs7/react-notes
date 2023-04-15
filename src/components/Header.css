@@ -1,0 +1,12 @@
+.Header {
+    margin-top: 12px;
+    border-bottom: 1px solid navy;
+    color: var(--primary);
+    background-color: var(--white);
+    height: 60px;
+
+}
+li {
+    margin-top: 30px;
+    list-style-type: none;
+}

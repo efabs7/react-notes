@@ -1,0 +1,11 @@
+:root {
+  --font-family:'Edu NSW ACT Foundation', sans-serif;
+  --gap: 20px;
+  --gap-s: 10px;
+  --gap-xs: 5px;
+  --gap-m: 15px;
+  --primary: #e8bb1aef;
+  --light-gray: #f1f1f1;
+  --gray: #ddd;
+  --white: #fff;
+}

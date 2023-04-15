@@ -1,0 +1,25 @@
+.Grid {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 60px 1fr 30px;
+}
+
+.Grid> :nth-child(1) {
+    background-color: var(--header-color);
+    color: var(--white);
+    padding: 0 var(--gap);
+}
+
+.Grid> :nth-child(2) {
+    background-color: var(--white);
+}
+
+.Grid> :nth-child(3) {
+    background-color: var(--gray);
+    padding: 0 var(--gap);
+}
+
+.Grid>* {
+    padding: var(--gap-m);
+    display: inherit;
+}

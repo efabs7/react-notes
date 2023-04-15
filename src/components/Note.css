@@ -1,0 +1,67 @@
+.Note {
+    height: 200px;
+    width: 300px;
+    border: 1px solid var(--grey);
+    border-radius: 2px;
+    color: black;
+    background-color: var(--primary);
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    box-shadow: 2px var(--gray)
+}
+
+.modalInput {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    min-height: 300px;
+    min-width: 600px;
+    color: rgb(87, 82, 82);
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    padding-left: 4px;
+    align-items: flex-start;
+}
+
+.modalTitle {
+    min-width: 600px;
+    border-radius: 1px;
+    border: 1px solid black;
+    cursor: pointer;
+    color:rgb(41, 37, 37);
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding-left: 4px;
+}
+
+.userInput {
+    background-color: var(--primary);
+    border: none;
+   
+}
+
+.userTitle {
+    background-color: var(--primary);
+    border: none;
+   
+}
+
+input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+   
+}

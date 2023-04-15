@@ -1,0 +1,16 @@
+.Btn {
+    border: 2px black;
+    border-radius: 2px;
+    background-color: var(--primary);
+    padding: var(--gap-s) var(--gap-m);
+    min-width: 80px;
+    height: 40px;
+}
+.Btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: large;
+}
+.Btn:active {
+    opacity: 0.9;
+}

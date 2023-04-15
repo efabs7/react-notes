@@ -1,0 +1,7 @@
+.LinesTop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--gap-m);
+    margin-top: 40px;
+}

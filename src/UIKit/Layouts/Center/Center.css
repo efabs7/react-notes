@@ -1,0 +1,6 @@
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-s);
+}

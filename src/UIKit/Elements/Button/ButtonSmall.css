@@ -1,0 +1,19 @@
+.BtnSmall {
+    border: 1px var(--gray);
+    border-radius: 2px;
+    background-color: var(--primary);
+    padding: 6px;
+    width: 40px;
+    height: 20px;
+    
+}
+.BtnSmall:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: large;
+
+    
+}
+.BtnSmall:active {
+    opacity: 0.9;
+}
